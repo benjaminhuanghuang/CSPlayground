@@ -1,5 +1,6 @@
 ﻿using System;
 
+using CSPlayground.Threads;
 using CSPlayground.AsyncAwait;
 
 namespace CSPlayground
@@ -8,11 +9,16 @@ namespace CSPlayground
     {
         public static void Main(string[] args)
         {
+            // --  Async Await
             // AsyncAwaitDemo.ButtonClick1();
             // AsyncAwaitDemo.ButtonClick2();
-            AsyncAwaitDemo.ButtonClick2_Wrong();
+            // AsyncAwaitDemo.ButtonClick2_Wrong();
+            // Console.ReadLine(); // Wait the async function.
+            
+            // -- Thread
+            MultiThreadDemo.TwoThreads();
 
-            Console.ReadLine(); // Wait the async function.
+            
         }
     }
 }
