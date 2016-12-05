@@ -8,10 +8,12 @@ namespace CSPlayground.Threads
     {
         public static void TwoThreads()
         {
-            ThreadStart job = new ThreadStart(PrintY);
-            Thread thread = new Thread(job);
-            thread.Start();
-
+            //http://www.albahari.com/threading/
+            // ThreadStart job = new ThreadStart(PrintY);
+            // Thread thread = new Thread(job);
+            Thread t = new Thread(PrintY);
+            t.Start();
+            t.Join();    // main thred wait t to end
             PrintX();
         }
 
