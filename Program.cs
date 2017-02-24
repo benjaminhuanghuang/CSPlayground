@@ -9,6 +9,9 @@ namespace CSPlayground
     {
         public static void Main(string[] args)
         {
+            // String Fromat
+            StringFormatDemo.ShowFloatNumber();
+            
             // --  Async Await
             // AsyncAwaitDemo.ButtonClick1();
             // AsyncAwaitDemo.ButtonClick2();
@@ -21,8 +24,8 @@ namespace CSPlayground
 
             //-- Regex
             // RegexDemo.Replace();
-            RegexDemo.FindFirst();
-            RegexDemo.FindAll();
+            //RegexDemo.FindFirst();
+            //RegexDemo.FindAll();
             
         }
     }
