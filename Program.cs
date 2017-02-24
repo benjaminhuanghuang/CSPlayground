@@ -18,6 +18,7 @@ namespace CSPlayground
             // -- Thread
             // MultiThreadDemo.TwoThreads();
             double a = 2.0;
+            Console.WriteLine(a);
             Console.WriteLine("{0:F}",a);
             Console.WriteLine("{0:F1}",a);
             Console.WriteLine("{0,5:F1}",a);  // arg0, right align, float

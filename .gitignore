@@ -1,4 +1,5 @@
 .DS_Store
+.vscod
 **/bin
 **/obj
 *.lock.json
