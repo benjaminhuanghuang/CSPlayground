@@ -2,8 +2,8 @@ using System;
 using System.Threading;
 
 /*
-当NewThread调用Join方法的时候，MainThread就被停止执行，
-直到NewThread线程执行完毕
+当New Thread调用Join方法的时候，Main Thread就被停止执行，
+直到New Thread线程执行完毕
  */
 public class SimpleThread
 {
