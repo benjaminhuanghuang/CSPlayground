@@ -20,7 +20,8 @@ public class MonitorVsLockDemo
             }
         }
     }
-
+    
+    // Equals to AddOne()
     public static void AddOneMonitor()
     {
         for (int i =0 ;i < 1000; i++)
