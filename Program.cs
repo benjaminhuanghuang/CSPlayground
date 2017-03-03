@@ -10,11 +10,11 @@ namespace CSPlayground
         public static void Main(string[] args)
         {
             // String Fromat
-            StringFormatDemo.ShowFloatNumber();
+            // StringFormatDemo.ShowFloatNumber();
             
             // --  Async Await
             // AsyncAwaitDemo.ButtonClick1();
-            // AsyncAwaitDemo.ButtonClick2();
+            AsyncAwaitDemo.ButtonClick2();
             // AsyncAwaitDemo.ButtonClick2_Wrong();
             // Console.ReadLine(); // Wait the async function.
             

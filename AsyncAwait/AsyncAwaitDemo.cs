@@ -10,6 +10,10 @@ using System.Threading.Tasks;
 namespace CSPlayground.AsyncAwait
 {
     public class AsyncAwaitDemo{
+        // public static void Main()
+        // {
+        //     ButtonClick1();
+        // }
         public async static void ButtonClick1()
         {
             Task<string> task = LongWork1Async();
